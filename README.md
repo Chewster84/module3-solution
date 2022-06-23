@@ -1,2 +1,2 @@
 # module3-solution
-module3-solutions-assignment
+module3-solutions-repository
