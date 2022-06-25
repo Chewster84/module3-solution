@@ -1,0 +1,117 @@
+body {
+  font-size: 16px;
+  color: #000000;
+  background-color: #7CFC00;
+}
+
+
+/** HEADER **/
+#header-nav {
+  background-color: #FFD700;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  padding-top: 10px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  color: #000000;
+  font-size: 2.0em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #000000;
+  text-align: right;
+}
+#nav-list a:hover {
+  background: #7CFC00;
+}
+#nav-list a span {
+  font-size: 1.2em;
+  text-align: right;
+  clear: both;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #7CFC00;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: 10px;
+
+/** END HEADER **/
+
+
+  /** Main Body **/
+.row {
+  width: 100%%;
+}
+.container {
+  border:2px solid #808080;
+  text-align: center;
+}
+.panel-heading {
+  text-align: center;
+  color: #000000;
+  background-color: #7CFC00;
+}
+.panel-body {
+  color: #000000;
+  background-color: #7CFC00;
+}
+
+  /** End Main Body **/
+
+
+  /* Medium Devices Only */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* Header */
+ 
+  
+  /* End Header */
+
+}
+
+  /* Small Devices Only */
+@media (max-width: 767px) {
+ 
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+  /* End Header */
+}
