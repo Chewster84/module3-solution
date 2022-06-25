@@ -4,6 +4,9 @@ body {
   background-color: #7CFC00;
   font-family: 'Oxygen', sans-serif;
 }
+  li {
+  visibility: hidden;
+  }
 
 /** HEADER **/
 #header-nav {
@@ -12,7 +15,7 @@ body {
   border: 0;
 }
 .navbar-brand {
-  padding-top: 20px;
+  padding-top: 10px;
 }
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
@@ -38,31 +41,44 @@ body {
 #nav-list a {
   color: #000000;
   text-align: right;
+  visibility: visible;
 }
 #nav-list a:hover {
   background: #7CFC00;
 }
 #nav-list a span {
   font-size: 1.2em;
+  text-align: right;
   clear: both;
 }
+
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #7CFC00;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
-  margin-top: 20px;
+  margin-top: 10px;
 
 /** END HEADER **/
 
 
   /** Main Body **/
 .row {
-  width: 50%;
+  width: 100%%;
 }
 .container {
-  border:1px solid #808080;
+  border:2px solid #808080;
+  text-align: center;
+}
+.panel-heading {
+  text-align: center;
+  color: #000000;
+  background-color: #7CFC00;
+}
+.panel-body {
+  color: #000000;
+  background-color: #7CFC00;
 }
 
   /** End Main Body **/
@@ -72,6 +88,7 @@ body {
 @media (min-width: 768px) and (max-width: 991px) {
 
     /* Header */
+  
   
   /* End Header */
 
