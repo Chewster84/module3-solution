@@ -1,5 +1,7 @@
 /* Base Styles */
-
+* {
+  box-sizing: border-box;
+}
 
 h1 {
   font-family: 'Lora', serif;
@@ -110,9 +112,7 @@ section {
   font-size: 1.2em;
 }
 
-/** END HEADER **/
 .container {
-  background-color: #7CFC00
   border: none;
   margin-left: auto;
   margin-right: auto;
@@ -130,6 +130,10 @@ section {
   color: #000000;
   background-color: #7CFC00;
 }
+
+
+/** END HEADER **/
+
 
 
   /* Medium Devices Only */
